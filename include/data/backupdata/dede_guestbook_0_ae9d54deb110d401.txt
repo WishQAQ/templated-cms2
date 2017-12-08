@@ -1,0 +1,2 @@
+INSERT INTO `dede_guestbook` VALUES('1','和哈哈哈','0','0','0','周','','','','01','127.0.0.1','1382174863','1','呵呵呵呵呵呵');
+INSERT INTO `dede_guestbook` VALUES('2','回复：和哈哈哈','0','0','0','zhou','','','','01','127.0.0.1','1382174893','1','<div class=\'rebox\'>呵呵呵呵呵呵</div>\nddddddddddddd');

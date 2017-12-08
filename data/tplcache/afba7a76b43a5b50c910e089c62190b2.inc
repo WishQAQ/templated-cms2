@@ -1,0 +1,1 @@
+<li> <a href="[field:typelink /]" class="in_product_icon05"> <i></i> <b>[field:typename/]</b> <span>安全保价，放心托运</span> </a> </li>

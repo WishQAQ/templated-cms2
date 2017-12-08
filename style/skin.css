@@ -1,0 +1,237 @@
+/* 魔客吧（moke8.com）做最好的织梦整站模板下载网站 */
+.pop800_contain {
+	border: 1px solid #0a4f70 !important;
+	background-color: #237eaa !important;
+}
+.pop800_main {
+}
+.pop800_main_table {
+	width: 100% !important;
+	color: #FFF;
+}
+.pop800_top_bg {
+	height: 22px;
+	line-height: 22px;
+	background: url(images/pic.gif) repeat-x !important;
+	padding-left: 3px;
+	background-color: transparent;
+	background-position: 0px 0px;
+	vertical-align: middle;
+}
+.pop800_logo {
+	height: 100%;
+	width: 20px;
+	text-align: center !important;
+}
+.pop800_top_title {
+	height: 100%;
+	color: #184a6d;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left !important;
+	width: auto;
+	line-height: 22px;
+}
+.pop800_face_bg {
+	text-align: center !important;
+	padding: 0px 0px;
+	margin: 3px auto !important;
+}
+.pop800_notice {
+	width: 100%;
+	color: #ffc14b;
+	line-height: 20px;
+	height: 20px;
+	display: block;
+}
+.pop800_worktime_title {
+	color: #ffffff;
+	height: 20px;
+	line-height: 20px;
+	text-align: center !important;
+	font-size: 12px;
+	font-weight: bold;
+}
+.pop800_worktime {
+	color: #ffc14b;
+	height: 20px;
+	line-height: 20px;
+	text-align: center !important;
+	font-size: 12px;
+}
+.pop800_hotline {
+	padding-top: 4px;
+	color: #FFFFFF;
+	height: 20px;
+	line-height: 20px;
+	text-align: center !important;
+	font-size: 12px;
+	background-color: #237eaa !important;
+}
+.pop800_hotline_num {
+	color: #ffc14b;
+	line-height: 20px;
+	text-align: center !important;
+	font-size: 12px;
+	font-weight: bold;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.pop800_list_bg {
+	padding: 0px 3px 0px 3px !important;
+	height: auto;
+	background-color: #eafee8 !important;
+}
+.pop800_list_table {
+	width: 100%;
+	font-size: 12px;
+	background-color: #eafee8 !important;
+}
+.pop800_shrink_on {
+	filter: none !important;
+	height: 11px !important;
+	background: url(images/shrink.gif) center no-repeat !important;
+	background-position: 0px 0px !important;
+	width: 11px !important;
+	border: 0px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	cursor: pointer;
+}
+.pop800_shrink_off {
+	filter: none !important;
+	height: 11px !important;
+	background: url(images/shrink.gif) center no-repeat !important;
+	background-position: -11px 0px !important;
+	width: 11px !important;
+	border: 0px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	cursor: pointer;
+}
+.pop800_group_name {
+*width:100%;
+	width: auto;
+	height: 22px;
+	font-size: 12px;
+	color: #092f4a;
+	line-height: 22px;
+	font-weight: bold;
+	word-break: keep-all;
+	text-align: left !important;
+}
+.pop800_group_left {
+	height: 22px;
+	line-height: 22px;
+	width: 20px;
+	text-align: center !important;
+*padding:0 2px 0 0 !important;
+}
+.pop800_face {
+	height: 20px;
+	line-height: 20px;
+	width: 20px;
+	text-align: center !important;
+*padding:0 2px 0 0 !important;
+}
+.pop800_face_off {
+	height: 20px;
+	line-height: 20px;
+	width: 20px;
+	text-align: center !important;
+*padding:0 2px 0 0 !important;
+}
+.pop800_face_over {
+	height: 20px;
+	line-height: 20px;
+	width: 20px;
+	text-align: center !important;
+*padding:0 2px 0 0 !important;
+}
+.pop800_space {
+	height: 4px;
+}
+.pop800_line {
+	height: auto;
+	width: auto !important;
+}
+.pop800_list_name {
+*width:100%;
+	width: auto;
+	cursor: pointer;
+	height: 20px;
+	line-height: 20px;
+	background: url(images/pic.gif) repeat-x !important;
+	border: 1px solid #bad0e0 !important;
+	font-size: 12px;
+	color: #3d454a;
+	text-align: left !important;
+	padding: 0px 0px 0px 3px !important;
+	background-color: transparent;
+	background-position: 0px -39px !important;
+}
+.pop800_list_name a {
+	color: #3d454a;
+	display: block
+}
+.pop800_list_name_off {
+*width:100%;
+	width: auto;
+	cursor: pointer;
+	height: 20px;
+	line-height: 20px;
+	background: url(images/pic.gif) repeat-x !important;
+	border: 1px solid #cccccc !important;
+	font-size: 12px;
+	color: #96989a;
+	text-align: left !important;
+	padding: 0px 0px 0px 3px !important;
+	background-color: transparent;
+	background-position: 0px -59px !important;
+}
+.pop800_list_name_over {
+*width:100%;
+	width: auto;
+	cursor: pointer;
+	height: 20px;
+	line-height: 20px;
+	background: url(images/pic.gif) repeat-x !important;
+	border: 1px solid #bad0e0 !important;
+	font-size: 12px;
+	color: #292f33;
+	text-align: left !important;
+	padding: 0px 0px 0px 3px !important;
+	background-color: transparent;
+	background-position: 0px -100px !important;
+}
+.pop800_list_name_over a {
+	color: #292f33;
+	display: block
+}
+.pop800_list_space {
+	height: 20px;
+	width: 2px;
+}
+.pop800_list_space div {
+	width: 2px !important;
+	height: auto;
+}
+.pop800_custom {
+	height: auto;
+	line-height: normal;
+}
+.pop800_list_foot {
+	text-align: center !important;
+	height: 21px;
+	line-height: 21px;
+	background: url(images/pic.gif) repeat-x !important;
+	font-size: 11px;
+	color: #184a6d;
+	padding: 0px 0px 0px 3px !important;
+	background-color: transparent;
+	background-position: 0px -79px;
+}
+.pop800_list_foot a {
+	color: #184a6d;
+	font-size: 11px;
+}

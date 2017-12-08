@@ -1,0 +1,2 @@
+<li><span class="STYLE1"><a href="[field:arcurl/]" class="title">[field:title/] </a></span><span class="info"><small>ÈÕÆÚ£º</small>[field:pubdate function="MyDate('y-m-d',@me)"/] </span>
+                 </li>

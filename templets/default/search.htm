@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="/www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.seotitle/}_{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<link rel="Shortcut Icon" href="/images/ico.png" type="image/x-icon"/>
+<link href="/style/base.css?version=0.0.1" rel="stylesheet" type="text/css" />
+<link href="/style/master.css?version=0.0.1" rel="stylesheet" type="text/css" />
+<link href="/style/addition.css?version=0.0.1" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/style/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="/style/jquery.selectui.js"></script>
+<script type="text/javascript" src="/style/jquery.jtabs.js"></script>
+<script type="text/javascript" src="/style/goodstrace.js"></script>
+<script type="text/javascript" src="/style/common.js"></script>
+<script type="text/javascript">
+
+$(function(){
+
+	var w = getCookie('importList');
+
+	$("#importList").text(w);
+
+	
+
+	$(".subNav").click(function(){		
+
+		$(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt")
+
+		// 修改数字控制速度， slideUp(500)控制卷起速度
+
+		$(this).next(".navContent").slideToggle(100).siblings(".navContent").slideUp(100);
+
+	})	
+
+	$('.hwzz_b_cxjg').jtabs('.hwzz_b_list', {fx: 'fade', activeClass: 'active', event: 'click', initIdx: 0});
+
+})
+
+</script>
+<style type="text/css">
+<!--
+.STYLE1 {font-weight: bold}
+.STYLE2 {font-size: 16px}
+.STYLE4 {font-size: 18}
+-->
+</style>
+</head>
+<body>
+<script  type="text/javascript" src="/style/public.js"></script>
+
+{dede:include filename='head.htm'/}
+<div class="content">
+  <div class="p_w">
+    <div class="col_left fl">
+      <div class="content_second_nav">
+        <h3>自助服务</h3>
+        <ul>
+          <li class="current"><a href="/huowuzhuizong/">货物追踪</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col_right fr">
+      <div class="drd_pic"><img src="/images/order_banner.jpg" width="770" /></div>
+      <h2 class="hwzz_title mb30">单号查询结果</h2>
+      
+	  
+	  
+	  
+     <div  style="text-align:center; color:#FF6600">
+                        <td height="198" valign="top">
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="2" class="right_con">
+        <tr>
+          <td height="490" align="center" valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="5"></td>
+              </tr>
+            </table>
+              <table width="98%" border="1" cellpadding="0" cellspacing="1" bgcolor="#CDD8DF" class="table_all" >
+			  
+			  
+			  
+			  
+			  
+	{dede:list titlelen='60' row='1' addfields='hyl,shr,lxd,sjg,sjd,ddr,dqz,sjr,fhr,hwj,hwy,thr,hwz,whm,hws,hyg,zxd' channelid='1'}
+	
+	
+	
+			  
+                <tr class="table_tittle">
+                  <td width="80" align="right" bgcolor="#FFFFFF">运单编号：</td>
+                  <td width="226" bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver STYLE1">[field:title/]</span></div></td>
+                  <td width="89" bgcolor="#FFFFFF"><div align="right">货运类型：</div></td>
+                  <td width="273" bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:hyl/] </span></div></td>
+                  </tr>
+                <tr>
+                  <td align="right" bgcolor="#FFFFFF">收货人：</td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:shr/] </span></div></td>
+                  <td bgcolor="#FFFFFF"><div align="right">联系电话：</div></td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:lxd/] </span></div></td>
+                  </tr>
+                <tr>
+                  <td align="right" bgcolor="#FFFFFF">收件公司：</td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:sjg/] </span></div></td>
+                  <td bgcolor="#FFFFFF"><div align="right">收件地址：</div></td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:sjd/] </span></div></td>
+                </tr>
+                <tr>
+                  <td align="right" bgcolor="#FFFFFF">订单日期：</td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:ddr/] </span></div></td>
+                  <td bgcolor="#FFFFFF"><div align="right">当前状态：</div></td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:dqz/] </span></div></td>
+                </tr>
+                <tr>
+                  <td align="right" bgcolor="#FFFFFF">发件人：</td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:sjr/] </span></div></td>
+                  <td bgcolor="#FFFFFF"><div align="right">发货人电话：</div></td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:fhr/] </span></div></td>
+                </tr>
+                <tr>
+                  <td align="right" bgcolor="#FFFFFF">货物价格：</td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:hwj/] </span></div></td>
+                  <td bgcolor="#FFFFFF"><div align="right">货物运费：</div></td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:hwy/] </span></div></td>
+                </tr>
+                <tr>
+                  <td align="right" bgcolor="#FFFFFF">提货日期：</td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:thr/] </span></div></td>
+                  <td bgcolor="#FFFFFF"><div align="right">货物状态：</div></td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:hwz/] </span></div></td>
+                </tr>
+                <tr>
+                  <td align="right" bgcolor="#FFFFFF">物货名称：</td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:whm/] </span></div></td>
+                  <td bgcolor="#FFFFFF"><div align="right">货物数量：</div></td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:hws/] 只</span></div></td>
+                </tr>
+                <tr>
+                  <td align="right" bgcolor="#FFFFFF">货运公司：</td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:hyg/] </span></div></td>
+                  <td bgcolor="#FFFFFF"><div align="right">咨询电话：</div></td>
+                  <td bgcolor="#FFFFFF"><div align="left"><span class="onMouseOver">[field:zxd/] </span></div></td>
+                </tr>
+				
+			 
+				
+				
+				
+                <tr>
+                  <td colspan="4" align="right" bgcolor="#FFFFFF"><div align="left" class="STYLE2">
+                    <div align="left" class="STYLE2"><span class="STYLE4"><strong>货物明细</strong>：</span></div>
+                  </div></td>
+                  </tr>
+                <tr>
+				
+				
+				
+                  <td colspan="4" align="right" bgcolor="#FFFFFF"><div align="left"><DIV><FONT color=#ff0000 size=3><FONT face=Verdana><FONT face=Verdana><FONT color=#000000 size=2 face=Verdana><FONT size=4><FONT face=宋体><FONT color=#110000 size=3><FONT color=#ff0000 size=3 face=Verdana><FONT face=宋体><FONT color=#110000 size=3>
+
+<DIV><FONT color=#7150f3 size=4>
+
+
+[field:hwm/]
+
+
+</FONT></DIV>
+
+{/dede:list}
+
+
+</td>
+                  </tr>
+              </table>
+              <br />
+              <table width="98%" border="0" cellpadding="0" cellspacing="1" bgcolor="#CDD8DF" class="table_all" >
+                <tr class="table_tittle"> </tr>
+                <tr>
+                  <td colspan='30' bgcolor='#FFFFFF'><div align="center">
+                    <input type="button" name="button" id="button" value=" 提单付款 " onclick="location.href='/huowuzhuizong/zhifufangshi/'" />
+  &nbsp;&nbsp;
+  <input type="button" name="button2" id="button2" value=" 关闭 " onclick="document.location.href='../';" />
+                  </div></td>
+                </tr>
+              </table>
+            </td>
+        </tr>
+      </table>
+                        
+                      </td>
+                      </div></div>
+
+			
+
+		</div>
+
+		
+
+		<div class="clearfix"></div>
+
+	</div>
+
+</div>
+
+
+
+
+{dede:include filename='foot.htm'/}
+
+
+
+
+
+<div class="bottom_tools"> <a id="scrollUp" href="javascript:void(0);" title="返回顶部"></a> </div>
+
+<script  type="text/javascript">
+
+
+
+$(function(){
+
+	var $bottomTools = $('.bottom_tools');	
+
+	$(window).scroll(function () {
+
+		var scrollHeight = $(document).height();
+
+		var scrollTop = $(window).scrollTop();
+
+		var $footerHeight = $('.footer').outerHeight(true);
+
+		var $windowHeight = $(window).height();
+
+		scrollTop > 50 ? $("#scrollUp").fadeIn(200).css("display","block") : $("#scrollUp").fadeOut(200);			
+
+		$bottomTools.css("bottom", scrollHeight - scrollTop - $footerHeight > $windowHeight ? 25 : $windowHeight + scrollTop + $footerHeight + 25 - scrollHeight);
+
+	});
+
+	$('#scrollUp').click(function (e) {
+
+		e.preventDefault();
+
+		$('html,body').animate({ scrollTop:0});
+
+	});
+
+		
+
+});
+
+
+
+$(function(){
+
+	$(function(){
+
+		$.each($(".inputFocus"),function(index,input){
+
+			   if($(input).val()==$(input).attr("ov")){
+
+				   $(input).addClass("grays");		
+
+			   }
+
+		});
+
+	});
+
+	$(".inputFocus").live("focus",function(){
+
+		var ov=$.trim($(this).attr("ov"));
+
+		var val=$.trim($(this).val());
+
+		$(this).removeClass("grays");
+
+		if(val==ov){
+
+			$(this).val("");
+
+		}
+
+
+
+	});
+
+ 	$(".inputFocus").live("blur",function(){
+
+		var ov=$.trim($(this).attr("ov"));
+
+		var val=$.trim($(this).val());
+
+		if(val==""){
+
+			$(this).val(ov).addClass("grays");
+
+		}
+
+	 });
+
+});
+
+</script>
+
+
+</body>
+</html>

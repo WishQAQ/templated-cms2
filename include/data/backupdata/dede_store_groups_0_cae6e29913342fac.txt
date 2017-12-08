@@ -1,0 +1,3 @@
+INSERT INTO `dede_store_groups` VALUES('1','交友','0','0','2');
+INSERT INTO `dede_store_groups` VALUES('2','旅游','0','0','0');
+INSERT INTO `dede_store_groups` VALUES('3','找女友','1','0','0');

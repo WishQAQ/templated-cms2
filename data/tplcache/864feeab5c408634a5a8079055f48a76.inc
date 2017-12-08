@@ -1,0 +1,1 @@
+<li class="loop news2"><a href="view.php?aid=[field:id/]" title="[field:title/]"><span>[field:title/]</span><span>[field:pubdate function="MyDate('Y/m/d',@me)"/]</span></a></li>

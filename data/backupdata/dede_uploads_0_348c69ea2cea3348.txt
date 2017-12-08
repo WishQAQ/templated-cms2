@@ -1,0 +1,4 @@
+INSERT INTO `dede_uploads` VALUES('1','8','宠物猫运输','/uploads/allimg/160711/105PKF5-0.jpg','1','449','500','0','37479','1468205889','1');
+INSERT INTO `dede_uploads` VALUES('2','9','宠物猫运输','/uploads/allimg/160711/105R032N-0.jpg','1','449','500','0','37479','1468205901','1');
+INSERT INTO `dede_uploads` VALUES('3','10','宠物猫运输','/uploads/allimg/160711/1059321P4-0.jpg','1','434','294','0','19710','1468205976','1');
+INSERT INTO `dede_uploads` VALUES('4','0','170516/1-1F516111J0T5.jpg','/uploads/allimg/170516/1-1F516111J0T5.jpg','1','624','190','0','29719','1494904660','1');

@@ -1,0 +1,1 @@
+<a href=" [field:typelink /]" class="navlist05_menu02"><span>[field:typename/]</span><i></i></a>

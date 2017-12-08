@@ -1,0 +1,7 @@
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('siteurl','http://www.zsq168.com/','1398385498');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('checksign','992ec8cd299a82be65be50946d327ec0','1398385498');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('pingtoken','596e58c9bc6b369e908094f2a31ba12b','1398385500');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('bdpwd','bfdd07eca50b651726','1394700769');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('setupmaxaid','214','1396510085');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('lastuptime_all','1394700769','1394700769');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('lastuptime_inc','1398385500','1398385500');

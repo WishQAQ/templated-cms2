@@ -1,0 +1,4 @@
+INSERT INTO `dede_member_default` VALUES('8','2','保密','豆爷','763959905','13838383838','','0','药药切克闹','0');
+INSERT INTO `dede_member_default` VALUES('9','2','男','','61300501','13857391039','','0','','1335527462');
+INSERT INTO `dede_member_default` VALUES('10','2','男','','','','','0','','1336110217');
+INSERT INTO `dede_member_default` VALUES('11','1','男','','','','','0','','0');

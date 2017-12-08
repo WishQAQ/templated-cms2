@@ -1,0 +1,5 @@
+INSERT INTO `dede_diyform_dp` VALUES('6','0','测试','上海','18563245685','测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试','测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试','测试测试测试测试测试');
+INSERT INTO `dede_diyform_dp` VALUES('5','0','','','','','','');
+INSERT INTO `dede_diyform_dp` VALUES('7','0','你好','在哪里','0994234234','很好','很好','虚拟');
+INSERT INTO `dede_diyform_dp` VALUES('8','0','田杰','及发动机死哦','13584109306','很好','空间风口浪尖','卡卡');
+INSERT INTO `dede_diyform_dp` VALUES('9','0','','','','','','');

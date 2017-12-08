@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="/www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="author" content="order by moke8.com" />
+<link rel="Shortcut Icon" href="/images/ico.png" type="image/x-icon"/>
+<link href="/style/base.css?version=0.0.1" rel="stylesheet" type="text/css" />
+<link href="/style/master.css?version=0.0.1" rel="stylesheet" type="text/css" />
+<link href="/style/addition.css?version=0.0.1" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/style/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="/style/jquery.selectui.js"></script>
+<script type="text/javascript" src="/style/jquery.kinMaxShow-1.1.min.js"></script>
+<script type="text/javascript" src="/style/jquery.jtabs.js"></script>
+<script type="text/javascript" src="/style/goodstrace.js"></script>
+<script type="text/javascript" src="/style/public.js"></script>
+<script type="text/javascript" src="/style/queryDistrict.js"></script>
+<script type="text/javascript" src="/style/queryPriceTime.js"></script>
+<meta http-equiv="mobile-agent" content="format=xhtml;url={dede:global.cfg_mobileurl/}/index.php">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="{dede:global.cfg_mobileurl/}/index.php";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<script type="text/javascript">
+
+$(function(){	
+
+	$("#kinMaxShow").kinMaxShow();
+
+	$("#newsMaxShow").kinMaxShow();	
+
+	$('.friend_tab').jtabs('.friend_list', {fx: 'fade', activeClass: 'active', event: 'mouseover', initIdx: 0});
+
+	$('.serve_tab_cont').jtabs('.serve_list', {fx: 'fade', activeClass: 'active', event: 'click', initIdx: 0});
+
+});
+
+function hideCityControl(){
+
+	$(".provinceCityAll").hide();
+
+}
+
+function hiden(i){
+
+	 $(i).hide();
+
+}
+
+</script>
+</head>
+<body>
+<script type="text/javascript" src="/style/public.js"></script> 
+{dede:include filename='head.htm'/}
+<div class="in_show">
+  <div id="kinMaxShow">
+    <div><a href="/"><img src="/images/20151101.jpg" /></a></div>
+    <div><a href="/"><img src="/images/3.jpg" /></a></div>
+  </div>
+</div>
+<div class="serve_shadow">
+  <div class="p_w pr">
+    <div class="serve_tab">
+      <div class="serve_tab_cont">
+        <ul class="quick-tools">
+          <li> <a class="quick-tool-title" href="/huowuzhuizong/"><i class="waybill_icon01"></i><span>货物追踪</span></a>
+            <div class="serve_list">
+              <div class="arrow"></div>
+              <div class="serve_hwzz">
+                <form action="/plus/search.php" method="post" >
+                  <input name="q" type="text"  style="ime-mode:disabled"  class="serve_hwzz_input inputFocus grays" ov="在此输入运单号进行查询" value="在此输入运单号进行查询" />
+                  <input  type="submit" name="btn_track" id="btn_track"    value="查询"  class="xz1" />
+                </form>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="in_product">
+  <div class="p_w">
+    <h2 class="in_title"><span>产品业务</span><i></i></h2>
+    <ul>
+      {dede:type typeid=25}
+      <li> <a href="[field:typelink /]" class="in_product_icon01"> <i></i> <b>[field:typename/]</b> <span>说到做到、定日必达</span> </a> </li>
+      {/dede:type}
+      {dede:type typeid=26}
+      <li> <a href="[field:typelink /]" class="in_product_icon02"> <i></i> <b>[field:typename/]</b> <span>运输快捷，经济实用</span> </a> </li>
+      {/dede:type}
+      {dede:type typeid=27}
+      <li> <a href="[field:typelink /]" class="in_product_icon03"> <i></i> <b>[field:typename/]</b> <span>专车保运，放心承运</span> </a> </li>
+      {/dede:type}
+      {dede:type typeid=28}
+      <li> <a href="[field:typelink /]" class="in_product_icon04"> <i></i> <b>[field:typename/]</b> <span>货款回收，便捷安全</span> </a> </li>
+      {/dede:type}
+      {dede:type typeid=29}
+      <li> <a href="[field:typelink /]" class="in_product_icon05"> <i></i> <b>[field:typename/]</b> <span>安全保价，放心托运</span> </a> </li>
+      {/dede:type}
+      {dede:type typeid=30}
+      <li> <a href="[field:typelink /]" class="in_product_icon06"> <i></i> <b>[field:typename/]</b> <span>专业打包，暖心服务</span> </a> </li>
+      {/dede:type}
+      {dede:type typeid=31}
+      <li> <a href="[field:typelink /]" class="in_product_icon07"> <i></i> <b>[field:typename/]</b> <span>定时定点，足不出户</span> </a> </li>
+      {/dede:type}
+    </ul>
+  </div>
+</div>
+<div class="in_promotion" >
+  <div class="p_w">
+    <h2 class="in_title"><span>特殊货运</span><i></i><a href="{dede:type typeid=15} [field:typelink /]{/dede:type}" class="in_more"></a></h2>
+    <div class="promotion_list">
+      <ul>
+        <li><a href="{dede:type typeid=16} [field:typelink /]{/dede:type}" class="go-dynamic"> <span class="promotion_pic"> <img src="/images/1.jpg" width="230" height="197" alt="顺诚物流物流有限公司"/><br />
+          <span class="aaaaa">国内空运</span> </span> </a></li>
+        <li><a href="{dede:type typeid=17} [field:typelink /]{/dede:type}" class="go-dynamic"> <span class="promotion_pic"> <img src="/images/2.jpg" width="230" height="197" alt="顺诚物流物流有限公司"/><br />
+          <span class="aaaaa">航空货运</span> </span> </a></li>
+        <li><a href="{dede:type typeid=18} [field:typelink /]{/dede:type}" class="go-dynamic"> <span class="promotion_pic"> <img src="/images/3.jpg" width="230" height="197" alt="顺诚物流物流有限公司"/><br />
+          <span class="aaaaa">航空快递</span> </span> </a></li>
+        <li><a href="{dede:type typeid=19} [field:typelink /]{/dede:type}" class="go-dynamic"> <span class="promotion_pic"> <img src="/images/4.jpg" width="230" height="197" alt="顺诚物流物流有限公司"/><br />
+          <span class="aaaaa">精密易碎空运</span> </span> </a></li>
+        <li><a href="{dede:type typeid=20} [field:typelink /]{/dede:type}" class="go-dynamic"> <span class="promotion_pic"> <img src="/images/5.jpg" width="230" height="197" alt="顺诚物流物流有限公司"/><br />
+          <span class="aaaaa">水果鲜蔬空运</span> </span> </a></li>
+        <li><a href="{dede:type typeid=21} [field:typelink /]{/dede:type}" class="go-dynamic"> <span class="promotion_pic"> <img src="/images/6.jpg" width="230" height="197" alt="顺诚物流物流"/><br />
+          <span class="aaaaa">酒水空运</span> </span> </a></li>
+        <li><a href="{dede:type typeid=22} [field:typelink /]{/dede:type}" class="go-dynamic"> <span class="promotion_pic"> <img src="/images/7.jpg" width="230" height="197" alt="顺诚物流物流"/><br />
+          <span class="aaaaa">货物包装仓储</span> </span> </a></li>
+        <li><a href="{dede:type typeid=23} [field:typelink /]{/dede:type}" class="go-dynamic"> <span class="promotion_pic"> <img src="/images/8.jpg" width="230" height="197" alt="顺诚物流物流"/><br />
+          <span class="aaaaa">宠物航空托运</span> </span> </a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<div class="in_news">
+  <div class="p_w">
+    <h2 class="in_title"><span>新闻</span><i></i><a href="/guanyuwomen/xinwenzhongxin/" class="in_more"></a></h2>
+    <div class="in_news_list fl pt30">
+      <ul>
+        {dede:arclist row='7' titlelen='60' typeid='13'}
+        <li><span class="fr">[field:pubdate function=MyDate('m-d',@me)/]</span><a href="[field:arcurl/]" >[field:title/] </a></li>
+        {/dede:arclist}
+        </li>
+      </ul>
+    </div>
+    <div class="in_news_pic fr pt30">
+      <div id="newsMaxShow">
+        <div><a href="#"><img src="/images/1.jpg"  alt="顺诚物流物流有限公司"/></a></div>
+        <div><a href="#"><img src="/images/2.jpg" alt="顺诚物流物流有限公司" /></a></div>
+        <div><a href="#"><img src="/images/3.jpg"  alt="顺诚物流物流有限公司"/></a></div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<div class="friend_box">
+  <div class="p_w">
+    <div class="friend_tab"> <a href="javascript:void(0)">快速导航</a> </div>
+    <div class="friend_list">
+      <div class="site_map">
+        <div class="link_row">
+          <ul>
+            <li><a href="{dede:type typeid=2} [field:typelink /]{/dede:type}">主营产品</a></li>
+            <li><a href="{dede:type typeid=3} [field:typelink /]{/dede:type}">增值服务</a></li>
+          </ul>
+        </div>
+        <div class="link_row">
+          <ul>
+            <li><a href="{dede:type typeid=37} [field:typelink /]{/dede:type}">货物追踪</a></li>
+            <li><a href="{dede:type typeid=4} [field:typelink /]{/dede:type}">宠物托运</a></li>
+            <li><a href="{dede:type typeid=5} [field:typelink /]{/dede:type}" >网点分布</a></li>
+            <li><a href="{dede:type typeid=6} [field:typelink /]{/dede:type}">担保交易流程</a></li>
+          </ul>
+        </div>
+        <div class="link_row">
+          <ul>
+            <li><a href="{dede:type typeid=16} [field:typelink /]{/dede:type}">国内空运</a></li>
+            <li><a href="{dede:type typeid=17} [field:typelink /]{/dede:type}">航空货运</a></li>
+            <li><a href="{dede:type typeid=18} [field:typelink /]{/dede:type}">航空快递</a></li>
+            <li><a href="{dede:type typeid=19} [field:typelink /]{/dede:type}">精密易碎空运</a></li>
+          </ul>
+        </div>
+        <div class="link_row">
+          <ul>
+            <li><a href="{dede:type typeid=20} [field:typelink /]{/dede:type}">水果鲜蔬空运</a></li>
+            <li><a href="{dede:type typeid=21} [field:typelink /]{/dede:type}">酒水空运</a></li>
+            <li><a href="{dede:type typeid=22} [field:typelink /]{/dede:type}">货物包装仓储</a></li>
+            <li><a href="{dede:type typeid=23} [field:typelink /]{/dede:type}">宠物航空托运</a></li>
+          </ul>
+        </div>
+        <div class="link_row">
+          <ul>
+            <li><a href="{dede:type typeid=8} [field:typelink /]{/dede:type}">常见答疑</a></li>
+            <li><a href="#" class="navlist05_menu05"><span>在线客服</span><i></i></a></li>
+            <li><a href="{dede:type typeid=10} [field:typelink /]{/dede:type}p">禁运品</a></li>
+          </ul>
+        </div>
+        <div class="link_row">
+          <ul>
+            <li><a href="{dede:type typeid=12} [field:typelink /]{/dede:type}">公司简介</a></li>
+            <li><a href="{dede:type typeid=13} [field:typelink /]{/dede:type}">新闻中心</a></li>
+            <li><a href="{dede:type typeid=14} [field:typelink /]{/dede:type}">联系我们</a></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--弹出省省市--> 
+{dede:include filename='foot.htm'/}
+<div class="bottom_tools"> <a id="scrollUp" href="javascript:void(0);" title="返回顶部"></a> </div>
+<script  type="text/javascript">
+
+
+
+$(function(){
+
+	var $bottomTools = $('.bottom_tools');	
+
+	$(window).scroll(function () {
+
+		var scrollHeight = $(document).height();
+
+		var scrollTop = $(window).scrollTop();
+
+		var $footerHeight = $('.footer').outerHeight(true);
+
+		var $windowHeight = $(window).height();
+
+		scrollTop > 50 ? $("#scrollUp").fadeIn(200).css("display","block") : $("#scrollUp").fadeOut(200);			
+
+		$bottomTools.css("bottom", scrollHeight - scrollTop - $footerHeight > $windowHeight ? 25 : $windowHeight + scrollTop + $footerHeight + 25 - scrollHeight);
+
+	});
+
+	$('#scrollUp').click(function (e) {
+
+		e.preventDefault();
+
+		$('html,body').animate({ scrollTop:0});
+
+	});
+
+		
+
+});
+
+
+
+$(function(){
+
+	$(function(){
+
+		$.each($(".inputFocus"),function(index,input){
+
+			   if($(input).val()==$(input).attr("ov")){
+
+				   $(input).addClass("grays");		
+
+			   }
+
+		});
+
+	});
+
+	$(".inputFocus").live("focus",function(){
+
+		var ov=$.trim($(this).attr("ov"));
+
+		var val=$.trim($(this).val());
+
+		$(this).removeClass("grays");
+
+		if(val==ov){
+
+			$(this).val("");
+
+		}
+
+
+
+	});
+
+ 	$(".inputFocus").live("blur",function(){
+
+		var ov=$.trim($(this).attr("ov"));
+
+		var val=$.trim($(this).val());
+
+		if(val==""){
+
+			$(this).val(ov).addClass("grays");
+
+		}
+
+	 });
+
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+INSERT INTO `dede_search_keywords` VALUES('1','测试','测试','2','1','1468211620','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','新闻','新闻','7','1','1468239514','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','cc','cc','1','0','1468236849','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','12345','12345','9','1','1468241309','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','起球','起球','1','0','1468240443','0','0');
+INSERT INTO `dede_search_keywords` VALUES('6','123','123','2','1','1468240577','0','0');
+INSERT INTO `dede_search_keywords` VALUES('7','y','y','1','1','1494902712','0','0');
+INSERT INTO `dede_search_keywords` VALUES('8','369545695','369545695 369545695','1','0','1494902729','0','0');
